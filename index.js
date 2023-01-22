@@ -126,6 +126,6 @@ mongoose
     console.log(e);
   });
 
-server.listen(port, "192.168.1.3", () => {
+server.listen(port, "localhost", () => {
   console.log(`Server started and running on port ${port}`);
 });
